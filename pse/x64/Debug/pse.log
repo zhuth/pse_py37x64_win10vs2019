@@ -1,0 +1,77 @@
+﻿  pse.cpp
+C:\Users\zhuth\Desktop\pse\pse\pse.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\zhuth\Desktop\pse\pse\pse.cpp(26,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=pybind11::ssize_t
+          ]
+C:\Users\zhuth\Desktop\pse\pse\pse.cpp(27,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=pybind11::ssize_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(163,47): warning C4244: “初始化”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty=int32_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(234): message : 查看对正在编译的函数 模板 实例化“std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)”的引用
+          with
+          [
+              _This=int32_t,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(234): message : 查看对正在编译的函数 模板 实例化“std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)”的引用
+          with
+          [
+              _This=int32_t,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(815): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Exact_args_t,unsigned __int64,unsigned __int64,int,0>(_Tag,_This2 &&,unsigned __int64 &&,int &&)”的引用
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(815): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Exact_args_t,unsigned __int64,unsigned __int64,int,0>(_Tag,_This2 &&,unsigned __int64 &&,int &&)”的引用
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(241): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)”的引用
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,unsigned __int64,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64,int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(241): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)”的引用
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,unsigned __int64,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64,int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(367): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,unsigned __int64,int>,0>(_Tag,_Tpl &&)”的引用
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64,int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\tuple(367): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,unsigned __int64,int>,0>(_Tag,_Tpl &&)”的引用
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,unsigned __int64,int>
+          ]
+C:\Users\zhuth\Desktop\pse\pse\pse.cpp(47): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<unsigned __int64,unsigned __int64,int,0>(std::tuple<unsigned __int64,unsigned __int64,int> &&) noexcept”的引用
+C:\Users\zhuth\Desktop\pse\pse\pse.cpp(47): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,int,int32_t>::tuple<unsigned __int64,unsigned __int64,int,0>(std::tuple<unsigned __int64,unsigned __int64,int> &&) noexcept”的引用
+    正在创建库 C:\Users\zhuth\Desktop\pse\x64\Debug\pse.lib 和对象 C:\Users\zhuth\Desktop\pse\x64\Debug\pse.exp
+  pse.vcxproj -> C:\Users\zhuth\Desktop\pse\x64\Debug\pse.pyd
